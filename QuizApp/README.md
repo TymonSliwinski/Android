@@ -8,5 +8,5 @@ Clicking on question text opens default browser with question as query string.
 Clone this repository and import into **Android Studio**
 
 ```bash
-git clone git@github.com:wolox/<reponame>.git
+git clone https://github.com/TymonSliwinski/Android.git
 ```
