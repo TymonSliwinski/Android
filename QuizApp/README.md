@@ -10,3 +10,6 @@ Clone this repository and import into **Android Studio**
 ```bash
 git clone https://github.com/TymonSliwinski/Android.git
 ```
+
+## Screenshots
+![Alt screenshots](screenshots.png?raw=true)
