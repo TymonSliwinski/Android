@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">StudentCrime</string>
+    <string name="is_solved">is Solved?</string>
+    <string name="back">BACK</string>
+</resources>
