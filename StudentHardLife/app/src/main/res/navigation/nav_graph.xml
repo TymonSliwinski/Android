@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/task_list_fragment">
+
+    <fragment
+        android:id="@+id/task_list_fragment"
+        android:name="com.example.studenthardlife.TaskListFragment"
+        android:label="Task List"
+        tools:layout="@layout/task_list_fragment">
+        <action
+            android:id="@+id/action_task_list_fragment_to_task_details_fragment"
+            app:destination="@+id/task_details_fragment"
+            />
+    </fragment>
+
+    <fragment
+        android:id="@+id/task_details_fragment"
+        android:name="com.example.studenthardlife.TaskDetailsFragment"
+        android:label="Task Details"
+        tools:layout="@layout/task_details_fragment">
+        <action
+            android:id="@+id/action_task_details_fragment_to_task_list_fragment"
+            app:destination="@id/task_list_fragment"
+            />
+    </fragment>
+
+
+
+</navigation>
